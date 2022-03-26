@@ -1,14 +1,14 @@
 {
   "tests": [
     {
-      "name": "Assessment 1 Test",
-      "setup": "npm install",
-      "run": "npm test",
+      "name": "Ruby Assessment Test",
+      "setup": "bundle install",
+      "run": "bundle exec rspec test/*",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 7
+      "points": 12
     }
   ]
 }
